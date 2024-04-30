@@ -36,18 +36,18 @@ export default function Footer() {
                             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Follow us</h2>
                             <ul className="text-gray-500 font-medium">
                                 <li className="mb-4">
-                                    <a
-                                        href="https://youtube.com"
+                                    <Link
+                                        to="https://youtube.com"
                                         className="hover:underline"
                                         target="_blank"
                                         rel="noreferrer"
                                     >
                                         Youtube
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <Link to="/" className="hover:underline">
-                                        Discord
+                                    <Link to="https://github.com/Harsh-Kumar-Barman/react-project" target='_blank' className="hover:underline">
+                                        Git Hub
                                     </Link>
                                 </li>
                             </ul>
@@ -73,9 +73,9 @@ export default function Footer() {
                 <div className="sm:flex sm:items-center sm:justify-between">
                     <span className="text-sm text-gray-500 sm:text-center">
                         © 2023
-                        <a href="https://google.com/" className="hover:underline">
+                        <Link to="https://google.com/" className="hover:underline">
                             google
-                        </a>
+                        </Link>
                         . All Rights Reserved.
                     </span>
                     <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
