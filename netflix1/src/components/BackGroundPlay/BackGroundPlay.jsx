@@ -14,8 +14,8 @@ const BackGroundPlay = () => {
     return (
         <div className="video w-full">
             <div className='videoPlay'>
-                {/* <iframe className='w-full h-[80vh] aspect-video' src={movies[0]?.videoUrl} frameBorder="0" allowFullScreen></iframe> */}
                 <iframe className='w-full h-[80vh] aspect-video' src="https://www.youtube.com/embed/KLuTLF3x9sA?si=PHtvru9cyok38-Kq" frameBorder="0" allowFullScreen></iframe>
+                {/* <iframe className='w-full h-[80vh] aspect-video' src="https://www.youtube.com/embed/KLuTLF3x9sA?si=PHtvru9cyok38-Kq" frameBorder="0" allowFullScreen></iframe> */}
             </div>
             <div className="contentText cursor-pointer absolute z-10 ml-10 top-[18%]">
                 <div className="texts text-white">
